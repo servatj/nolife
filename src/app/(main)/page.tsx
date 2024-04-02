@@ -10,24 +10,41 @@ import Image from "next/image";
 export default function MainPage() {
 	return (
 		<>
-			<div className="flex bg-pink-600 min-h-screen justify-center items-center">
-        <div className="flex-col">
-          <Image
-            src="/dognolife.jpeg"
-            alt="Vercel Logo"
-            width={100}
-            height={24}
-            priority
-            className="flex w-full p-4"
-          />
-          <Card className="">
-            <CardHeader>
-              <CardTitle>No Life</CardTitle>
-              <CardDescription>Working all day you don't have life</CardDescription>
-            </CardHeader>
-          </Card>
+			<div className="flex min-h-screen justify-center items-center">
+				<div className="flex-col">
+					<div>
+						<p className="text-white">
+							Hi I 'm crypto brog, and you're a crypto bro without life{" "}
+							<br></br>I created a "Cero Utiliy" coin for you to get a life
+						</p>
+					</div>
+					<h1 className="text-pink-600 text-6xl p-4">👋 $Crypto Brog</h1>
 
-        </div>
+					<Image
+						src="/dognolife.png"
+						alt="Vercel Logo"
+						width={200}
+						height={48}
+						priority
+						className="flex w-full p-4"
+					/>
+					<Card className="bg-pink-600 text-white m-8 p-4">
+						<CardHeader>
+							<CardTitle>NoLifecoin</CardTitle>
+							<CardDescription>
+								Working all day you don't have life
+							</CardDescription>
+							<Image
+								src="/coin.png"
+								alt="Vercel Logo"
+								width={200}
+								height={48}
+								priority
+								className="flex w-full p-4"
+							/>
+						</CardHeader>
+					</Card>
+				</div>
 			</div>
 		</>
 	);
