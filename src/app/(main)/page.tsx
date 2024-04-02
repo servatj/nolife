@@ -4,6 +4,7 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
+import { ArrowDownToLine } from "lucide-react";
 import HamburguerButton from "@/components/ui/hamburguer-button";
 import Image from "next/image";
 
@@ -19,7 +20,7 @@ export default function MainPage() {
 						</p>
 					</div>
 					<h1 className="text-pink-600 text-6xl p-4">👋 $Crypto Brog</h1>
-
+					<h3 className="text-white">Former PVU and Axie pro player ...<span className="text-pink-400">He Lost it all!</span></h3>
 					<Image
 						src="/dognolife.png"
 						alt="Vercel Logo"
@@ -28,6 +29,12 @@ export default function MainPage() {
 						priority
 						className="flex w-full p-4"
 					/>
+
+
+					<div className="flex justify-center items-center">
+					  <ArrowDownToLine size={48} className="text-pink-600" />
+						{/* <IconArrowDown size={48} className="text-pink-600" /> */}
+					</div>
 					<Card className="bg-pink-600 text-white m-8 p-4">
 						<CardHeader>
 							<CardTitle>NoLifecoin</CardTitle>
