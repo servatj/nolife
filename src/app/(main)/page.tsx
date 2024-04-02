@@ -14,8 +14,8 @@ export default function MainPage() {
 				<div className="flex-col">
 					<div>
 						<p className="text-white">
-							Hi I 'm crypto brog, and you're a crypto bro without life{" "}
-							<br></br>I created a "Cero Utiliy" coin for you to get a life
+							Hi I `&apos;m crypto brog, and you`&apos;re a crypto bro without life{" "}
+							<br></br>I created a &quot;Cero Utility&quot; coin for you to get a life
 						</p>
 					</div>
 					<h1 className="text-pink-600 text-6xl p-4">👋 $Crypto Brog</h1>
@@ -32,7 +32,7 @@ export default function MainPage() {
 						<CardHeader>
 							<CardTitle>NoLifecoin</CardTitle>
 							<CardDescription>
-								Working all day you don't have life
+								Working all day you don`&apos;t have life
 							</CardDescription>
 							<Image
 								src="/coin.png"
