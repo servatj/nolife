@@ -32,7 +32,7 @@ export default function MainPage() {
 					<h1 className="text-pink-600 text-6xl p-4">👋 $Crypto Brog</h1>
 					<h3 className="text-white">Former PVU and Axie pro player ...<span className="text-pink-400">He Lost it all!</span></h3>
 					<Image
-						src="/dognolif-new.png"
+						src="/dognolife-new.png"
 						alt="Vercel Logo"
 						width={200}
 						height={48}
