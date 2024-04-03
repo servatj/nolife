@@ -60,7 +60,7 @@ export default function MainPage() {
 								priority
 								className="flex w-full p-4"
 							/>
-							<Button variant="default" color="primary">Pre Sale >></Button>
+							<Button variant="default" color="primary">Pre Sale</Button>
 						</CardHeader>
 					</Card>
 
